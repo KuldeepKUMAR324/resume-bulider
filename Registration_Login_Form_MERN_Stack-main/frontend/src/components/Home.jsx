@@ -19,8 +19,8 @@ const Home = () => {
           </ul>
 
           <div className="signin">
-            <a href="/register"><button className="btn"  id='ram'>Sign Up</button></a>
-            <a href="/login"><button className="btn">Log in</button></a>
+            <a href="/register"><button className="btn" >Sign Up</button></a>
+            {/* <a href="/login"><button className="btn"></button></a>  */}
           </div>
         </nav>
 
@@ -33,12 +33,12 @@ const Home = () => {
             Create a resume using our AI resume builder feature, plus take advantage of expert suggestions <br />
             and customizable modern and professional resume templates.
           </p>
-          <a href="login.html"><button className="cn">Build Your Resume</button></a>
+          <a href="login.html"><button className="cn">Get Started</button></a>
           <a href="#"><button className="cn1">Get Your Resume Score</button></a>
 
           <div className="image">
             <a href="https://resume-genics-ranking-system.streamlit.app/">
-              <img src="https://img.freepik.com/premium-photo/man-holding-resume-front-laptop_31965-140973.jpg?ga=GA1.1.801352127.1743308928&semt=ais_hybrid" alt="Open Streamlit" className="image-button" />
+              <img src="https://img.freepik.com/premium-photo/Sman-holding-resume-front-laptop_31965-140973.jpg?ga=GA1.1.801352127.1743308928&semt=ais_hybrid" alt="Open Streamlit" className="image-button" />
             </a>
             <img src="https://img.freepik.com/free-vector/online-resume-concept-illustration_114360-5166.jpg?ga=GA1.1.801352127.1743308928&semt=ais_hybrid" alt="Library" className="image-button" />
             <a href="https://analysisgi-vjnmxeuuyz4zo9mh7bggg5.streamlit.app/">
@@ -47,8 +47,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-    
-     
+
+
     </div>
   );
 };
