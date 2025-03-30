@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Home';  // Make sure Home.jsx is in the same directory
-import Login from './Login';  // Make sure Login.jsx is in the same directory
+import Home from './Home';  
+import Login from './Login';  
 import Register from './Register';
 import About from './About'; 
 import Services from './Services';
-import Design from './Design' ;// Make sure Register.jsx is in the same directory
+import Design from './Design' ;
+import Contact from './Contact';
 
 function App() {
   return (
@@ -15,12 +16,13 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          {/* <Route path="/about" element={<About/>} /> Placeholder for About component */}
+          
           <Route path="/register" element={<Register />} />
           <Route path="/about" element={<About />} /> 
           <Route path="Services" element={<Services/>}/>
           <Route path="Design" element={<Design/>}/>
-          {/* Placeholder for About component */}
+          <Route path="Contact" element={<Contact/>}/>
+          
         </Routes>
       </div>
     </BrowserRouter>

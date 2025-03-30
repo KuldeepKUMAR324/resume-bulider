@@ -4,9 +4,9 @@ import "./Services.css"
 const Services = () => {
   return (
     <div>
-       <p> this is  the service</p>
+      service
     </div>
   )
 }
 
-export default Services
+export default Services;
