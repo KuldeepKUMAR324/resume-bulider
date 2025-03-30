@@ -12,9 +12,9 @@ const Home = () => {
 
           <ul className="menu">
             <li><a href="/">HOME</a></li>
-            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/About">ABOUT</a></li>
             <li><a href="/services">SERVICES</a></li>
-            <li><a href="/design">DESIGN</a></li>
+            <li><a href="/Design">DESIGN</a></li>
             <li><a href="/contact">CONTACT</a></li>
           </ul>
 
