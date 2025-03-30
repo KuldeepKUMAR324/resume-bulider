@@ -19,7 +19,7 @@ const Home = () => {
           </ul>
 
           <div className="signin">
-            <a href="/register"><button className="btn" >Sign Up</button></a>
+            <a href="/register"><button className="btn"  id='ram'>Sign Up</button></a>
             <a href="/login"><button className="btn">Log in</button></a>
           </div>
         </nav>

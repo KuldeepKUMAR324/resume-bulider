@@ -86,21 +86,28 @@ ul li a:hover{
     margin-right: 10px;
 }
 
+.signin button{
+    background-color:#ff7200;
+    
+    
+}
 
 .btn{
-    width: 100px;
+    width: 90px;
     height: 40px;
     background: yellow;
     border: 2px solid #ff7200;
     margin-top: 50px;
     color: #fff;
-    font-size: 15px;
+    font-size: 25px;
     border-radius: 5px;
     transition: 0.2s ease;
     cursor: pointer;
+    gap: 20px;
+    font-weight: bold;
 }
 .btn:hover{
-    color:white;
+    background-color:rgb(33, 28, 28);
 }
 
 .btn:focus{
