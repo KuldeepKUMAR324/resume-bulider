@@ -34,7 +34,7 @@ const Home = () => {
             and customizable modern and professional resume templates.
           </p>
           <a href="login.html"><button className="cn">Get Started</button></a>
-          <a href="#"><button className="cn1">Get Your Resume Score</button></a>
+          <a href="/Score"><button className="cn1">Get Your Resume Score</button></a>
 
           <div className="image">
             <a href="https://resume-genics-ranking-system.streamlit.app/">

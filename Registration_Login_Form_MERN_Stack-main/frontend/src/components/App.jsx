@@ -7,6 +7,7 @@ import About from './About';
 import Services from './Services';
 import Design from './Design' ;
 import Contact from './Contact';
+import Score from './Score';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="Services" element={<Services/>}/>
           <Route path="Design" element={<Design/>}/>
           <Route path="Contact" element={<Contact/>}/>
+          <Route path="Score" element={<Score/>}/>
           
         </Routes>
       </div>
