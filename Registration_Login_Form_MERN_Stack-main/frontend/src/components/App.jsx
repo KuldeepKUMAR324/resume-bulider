@@ -8,6 +8,10 @@ import Services from './Services';
 import Design from './Design' ;
 import Contact from './Contact';
 import Score from './Score';
+import Start from './Start';
+import faq from './faq';
+import TemplatePreview from './TemplatePreview';
+
 
 function App() {
   return (
@@ -24,6 +28,9 @@ function App() {
           <Route path="Design" element={<Design/>}/>
           <Route path="Contact" element={<Contact/>}/>
           <Route path="Score" element={<Score/>}/>
+          <Route path="Start" element={<Start/>}/>
+          <Route path="faq" element={<faq/>}/>
+          <Route path="/template/:id" element={<TemplatePreview />} />
           
         </Routes>
       </div>

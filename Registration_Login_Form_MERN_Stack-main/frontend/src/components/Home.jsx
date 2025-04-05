@@ -33,7 +33,7 @@ const Home = () => {
             Create a resume using our AI resume builder feature, plus take advantage of expert suggestions <br />
             and customizable modern and professional resume templates.
           </p>
-          <a href="login.html"><button className="cn">Get Started</button></a>
+          <a href="/Start"><button className="cn">Get Started</button></a>
           <a href="/Score"><button className="cn1">Get Your Resume Score</button></a>
 
           <div className="image">
