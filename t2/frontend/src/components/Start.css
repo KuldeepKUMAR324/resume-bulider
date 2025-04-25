@@ -1,0 +1,186 @@
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.start-container,
+.resume-builder {
+  min-height: 100vh;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Themes */
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+/* Start Page */
+.heading {
+  font-size: 2.8rem;
+  color: orange;
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.subtext {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.button,
+.theme-toggle {
+  background-color: orange;
+  color: black;
+  padding: 12px 28px;
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover,
+.theme-toggle:hover {
+  background-color: #ff9f1c;
+  transform: translateY(-2px);
+}
+
+/* Resume Builder */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+}
+
+.download-button {
+  background-color: orange;
+  color: black;
+  padding: 10px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-button:hover {
+  background-color: #ffa726;
+  transform: scale(1.05);
+}
+
+.resume-container {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.resume-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.resume-form input,
+.resume-form textarea {
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-form input:focus,
+.resume-form textarea:focus {
+  outline: none;
+  border-color: orange;
+  box-shadow: 0 0 8px rgba(255, 165, 0, 0.5);
+}
+
+.resume-form textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+/* Resume Preview */
+.resume-preview {
+  flex: 1;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  transition: background-color 0.3s ease;
+}
+
+.resume-preview h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.resume-preview h3 {
+  margin-top: 15px;
+  color: black;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.resume-preview p,
+.resume-preview ul {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 8px 0;
+}
+
+.resume-preview ul {
+  padding-left: 20px;
+}
+
+/* Resume Links */
+.resume-preview a {
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resume-preview a:hover {
+  text-decoration: underline;
+}
+
+/* Profile Image (optional future use) */
+.profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid orange;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

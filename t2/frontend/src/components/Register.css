@@ -1,5 +1,5 @@
 .register-page {
-  background-color: #000; /* pure black */
+  background-color: #000; 
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -26,7 +26,7 @@
 
 .register-heading {
   text-align: center;
-  color: #ff6600; /* bright but professional orange */
+  color: #ff6600; 
   font-weight: 700;
   font-size: 2.4rem;
   margin-bottom: 30px;
@@ -34,7 +34,7 @@
 }
 
 .form-label {
-  color: #ffb366; /* soft orange labels */
+  color: #ffb366; 
   font-weight: 600;
   margin-bottom: 5px;
 }

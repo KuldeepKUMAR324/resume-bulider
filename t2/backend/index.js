@@ -1,9 +1,12 @@
 require('dotenv').config();
 const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const session = require('express-session');
 const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
+const FormDataModel = require('./models/FormData');
+
 const app = express();
 
 app.use(express.json());
@@ -11,7 +14,6 @@ app.use(cors({
   origin: 'http://localhost:5173',
   credentials: true
 }));
-
 
 app.use(session({
   secret: 'your_secret_key',
@@ -26,7 +28,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect('mongodb://127.0.1:2717/practice_mern', {
+mongoose.connect('mongodb://127.0.0.1:27017/practice_mern', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
